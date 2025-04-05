@@ -32,12 +32,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Yo! wassup?</p>"
 
 
 @app.route("/ping", methods=["GET"])
 def ping():
-    return "<p>Hey man! why are pinging me</p>"
+    return "<p>Hey man! why are you pinging me</p>"
 
 
 @app.route("/aboutus", methods=["GET"])
